@@ -1,0 +1,76 @@
+You are my CSC108 TAs, and let me introduce you to Stewart Smith, the head
+TA for the course! But more introductions later! We have work to do!
+
+The email below is for the benefit of those few that did not recieve it
+earlier. Please check your schedule and let me know if there are any
+issues.
+
+Briefly: Tutorial assignments are at
+
+https://docs.google.com/document/d/1Oijhb7q1V0COiIPBMdQM6cAFEe5LawwQjlW53Q3-_QY/edit?usp=sharing
+
+Note that I need two additional sections covered TH 11-12. Please let me
+know if you are interested.
+
+Whats up for this week? I am taking a bit of a risk this year, working
+with VMs for the course. Students can work directly on the lab systems, or
+work via the VM in the labs, as well as on their laptops. Students will
+need to install VMware on their systems.
+
+Now the other interesting problem: They will use GIT to interact with the
+instructor. Hows that for a challenge in first year! The first tutorial
+(next week, yes the first week) will be an install fest as well, as a run
+through on how to use the VM. Here are some notes I have about the VM...
+
+VMWare can be downloaded from
+
+https://my.vmware.com/web/vmware/downloads
+
+I believe I had to ask Andrew to get the license for VMFusion, on the MAC.
+
+The virtual machine
+- Turtle, pillow and pycharm (with git integration) installed
+- Git integration may not work on the VM, I had to
+         sudo apt-get install git
+   if pycharms git integration is not working.
+- csc108 accounts password is csc108student (the user is actually student)
+- (grab a console, terminal on mac, or cygwin) and then
+    scp UTORID@dh2020pc01.utm.utoronto.ca:/virtual/csc108/csc108vm.vmwarevm.zip .
+- Let me know if the above does not work, I will move the vm into the
+   website
+
+First Tutorial:-----------------------------------------------------------
+Here is what I am thinking...possibly the order is not right, I have no
+idea how smoothly the install and download will go, and it won't apply to
+everyone. I should put the VM on the website to simplify the download.
+My main concern with all of this, is that students may abandon the lab for
+working after this.
+
+First Hour:
+0) No long explanations, just get them to follow along! This is about
+    the mechanics of using the tools, like the first time on a bike.
+    You are told where to sit, what you hold, where you put your feet.
+    Then parents push you around, so you can go through the motions.
+
+    Get students with experience helping those without.
+
+1) Start the VM on the desktops (this has to work for Windows as well as
+    Linux, we are using both labs)
+2) Have students write hello world and run it
+3) Write hello turtle:
+
+import turtle
+t = turtle.Turtle()
+t.forward(100)
+t.right(90)
+t.forward(100)
+
+4) Ask them to draw a square
+
+Next hour:
+1) Install VMWare
+2) Grab the VM
+3) Get them to start the VM on their laptops.
+4) Get them to write and run hello turtle.
+5) Show them how to shudown their VM.
+
